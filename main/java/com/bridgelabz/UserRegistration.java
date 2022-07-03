@@ -32,4 +32,5 @@ public class UserRegistration {
         // regex pattern for password
         return Pattern.matches("(?=.*[A-Z])(?=.*\\d)(?=.*[$&+,:;=?@#|'<>.-^*()%!])[a-z A-Z \\d $&+,:;=?@#|'<>.-^*()%!]{8,}", password);
     }
+    
 }

@@ -83,4 +83,5 @@ public class UserRegistrationTest {
         boolean actualOutput = userRegistration.validatePassword("vishangi@30");
         Assert.assertFalse(actualOutput);
     }
+
 }
