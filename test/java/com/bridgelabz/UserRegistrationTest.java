@@ -90,4 +90,5 @@ public class UserRegistrationTest {
             Assert.assertEquals("Invalid Password", exception.getMessage());
         }
     }
+    
 }

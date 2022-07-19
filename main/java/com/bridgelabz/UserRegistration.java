@@ -4,7 +4,7 @@ import java.util.regex.Pattern;
 
 @FunctionalInterface
 interface UserDetailsValidationFI {
-    boolean validate(String x) throws UserRegistrationException;
+    boolean validate(String string) throws UserRegistrationException;
 }
 public class UserRegistration {
     // Using lambda function to check firstname Valid or Invalid
